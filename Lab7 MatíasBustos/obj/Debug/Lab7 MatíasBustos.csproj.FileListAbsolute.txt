@@ -1,0 +1,10 @@
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\bin\Debug\Lab7 MatíasBustos.exe.config
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\bin\Debug\Lab7 MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\bin\Debug\Lab7 MatíasBustos.pdb
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7 MatíasBustos.csprojAssemblyReference.cache
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7_MatíasBustos.Form1.resources
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7_MatíasBustos.Properties.Resources.resources
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7 MatíasBustos.csproj.GenerateResource.cache
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7 MatíasBustos.csproj.CoreCompileInputs.cache
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7 MatíasBustos.exe
+C:\Users\SEBASTIÁN\Desktop\Lab7 MatíasBustos\Lab7 MatíasBustos\obj\Debug\Lab7 MatíasBustos.pdb
