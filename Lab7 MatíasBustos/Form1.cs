@@ -16,11 +16,14 @@ namespace Lab7_MatíasBustos
     {
         double FirsValue = 0;
         string OperandoAntes;
+        string LastCalculation = "";
         
 
         string Operator = "";
         bool Operator_click = false;
         bool SyntaxError = false;
+    
+        int CountResult = 0;
         
         public Form1()
         {
@@ -46,7 +49,7 @@ namespace Lab7_MatíasBustos
             
             Button b = (Button)sender;
             Result.Text = Result.Text + b.Text;
-            
+            Operator_click = false;
 
         }
 
@@ -90,9 +93,9 @@ namespace Lab7_MatíasBustos
 
         private void ResultButtonOperation_Click(object sender, EventArgs e)
         {
-            int countPointsBefore = Result.Text.Split('.').Length - 1;
+            int countPointsBefore = Result.Text.Split(',').Length - 1;
             
-            int countPointsAfter = (OperandoAntes.ToString()).Split('.').Length - 1;
+            int countPointsAfter = (OperandoAntes.ToString()).Split(',').Length - 1;
 
             
 
@@ -124,6 +127,7 @@ namespace Lab7_MatíasBustos
                 else
                 {
                     Result.Text = (FirsValue - Double.Parse(Result.Text)).ToString();
+ 
                 }
             }
             else if (Operator == "*")
@@ -136,6 +140,7 @@ namespace Lab7_MatíasBustos
                 else
                 {
                     Result.Text = (FirsValue * Double.Parse(Result.Text)).ToString();
+                    
                 }
                 
             }
@@ -156,13 +161,29 @@ namespace Lab7_MatíasBustos
                 else
                 {
                     Result.Text = (FirsValue / Double.Parse(Result.Text)).ToString();
+                    
                 }
-
+                
 
 
             }
+            if (CountResult == 0)
+            {
+                LastCalculation = Result.Text;
+            }
+
+            CountResult++;
+ 
             Operator_click = false;
             SyntaxError = false;
+
+        }
+
+        private void AnsButton_Click(object sender, EventArgs e)
+        {
+            Result.Text = LastCalculation;
+  
+            CountResult = 0;
         }
     }
 }

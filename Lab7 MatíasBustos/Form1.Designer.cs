@@ -145,7 +145,7 @@
             this.PointButton.Name = "PointButton";
             this.PointButton.Size = new System.Drawing.Size(46, 35);
             this.PointButton.TabIndex = 34;
-            this.PointButton.Text = ".";
+            this.PointButton.Text = ",";
             this.PointButton.UseVisualStyleBackColor = true;
             this.PointButton.Click += new System.EventHandler(this.Num1Button_Click);
             // 
@@ -159,6 +159,7 @@
             this.AnsButton.TabIndex = 33;
             this.AnsButton.Text = "Ans";
             this.AnsButton.UseVisualStyleBackColor = true;
+            this.AnsButton.Click += new System.EventHandler(this.AnsButton_Click);
             // 
             // PlusButton
             // 
